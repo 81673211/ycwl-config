@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/81673211/spring-cloud-config-study
+          search-paths: /ycwl
+          username:
+          password:
+      label: master
+
+
+server:
+  port: 8777
